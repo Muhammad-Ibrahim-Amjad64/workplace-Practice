@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="screen1.css" />
+      <title>payment screen 1</title>
+   </head>
+   <body>
+             <!-- START OF FORM AND PRICNG CONTAINER -->
+      <div class="RootContainerr">
+         <div class="childLeftt">
+            <div class="Headingg">Payment</div>
+            <form class="formm">
+               <div class="formLargeHeadingg">Credit Card Information</div>
+               <hr class="hrClass" />
+               <!-- Single Input -->
+               <div class="singleInput">
+               <input class="inputStyless" placeholder="Name on Card" type="text" />
+               <span class="full">Fill in this text</span>
+              </div>
+              <!-- Custon sized Input with cards -->
+               <div class="cardInputContainerr">
+                  <div class="inputWrapper normal">
+                     <input  class="inputStyless customSize" placeholder="Card Number" type="text" />
+                     <span class="normal">Fill in this text</span>
+                  </div>
+                  <div class="imageContainerr" >
+                     <img class="cardImagee"  src="./images/card1.png" alt="creitCard" />
+                     <img class="cardImagee"  src="./images/card2.png" alt="creditCard" />
+                     <img class="cardImagee"  src="./images/card3.png" alt="creitCard" />
+                     <img class="cardImagee"  src="./images//card4.png" alt="creitCard" />
+                  </div>
+               </div>
+               <!-- headings -->
+               <div class="headingsContainerr">
+                  <div class="inputHeadingss">Expiration Date</div>
+                  <div class="inputHeadingss">CVC</div>
+               </div>
+               <!-- multipleinputs  -->
+               <div class="multipleInputContainerr">
+                  <div class="inputWrapper">
+                     <input class="miniInputStyless" type="text" placeholder="   Month" />
+                     <span class="multiple">Fill in this text</span>
+                  </div>
+                  <div class="inputWrapper">
+                     <input class="miniInputStyless" type="text" placeholder="   Year" />
+                     <span class="multiple">Fill in this text</span>
+                  </div>
+                  <div class="inputWrapper">
+                     <input class="miniInputStyless" type="text" />
+                     <span class="multiple">Fill in this text</span>
+                  </div>
+                  
+               </div>
+
+           
+
+            
+               <!-- Checkbox Container -->
+               <div class="checkboxContainerr">
+                  <input class="checkboxStyless" type="checkbox" id="saveCredit" />
+                  <label class="checkboxTextt" for="saveCredit"
+                     >Save credit card information for the next time
+                  </label>
+               </div>
+               
+               <div class="checkboxExtraTextt">
+                  This will enable instant in the future
+               </div>
+               <div class="formLargeHeadingg">Billing Address</div>
+               <hr class="hrClass" />
+               <!-- checknbox container -->
+               <div class="checkboxContainerr">
+                  <input class="checkboxStyless" type="checkbox" id="saveCredit" />
+                  <label class="checkboxTextt" for="saveCredit"
+                     >Same as shopping address
+                  </label>
+               </div>
+           
+            </form>
+            <!-- Buttons container -->
+            <div class="buttonContainerr">
+               <button class="btnBackToShoppingg">Back to shipping</button>
+               <button class="btnCheckoutt">Checkout</button>
+            </div>
+         </div>
+
+         <!-- Price Container -->
+         <div class="childRightt">
+            <div class="Headingg">Order Summary</div>
+            <div class="productTitleContainerr">
+              <div class="imageParent">
+                <img class="productImage"  src="./images/item.png" alt="productImage" />
+              </div>
+               <div class="productHeadingg">Premuim Eco Flat Buttom</div>
+            </div>
+
+            <!-- Items container -->
+            <div class="ItemsParent">
+
+            
+            <div class="itemContainerr" >
+               <div>
+                  <div class="producttextt1">250G</div>
+                  <div class="producttextt1 flatButton" >Eco Flat Button</div>
+               </div>
+               <div>
+                  <div  class="productTextQuantity price"  >&#215 1000</div>
+                  <div class="producttextt1">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="itemContainerr" >
+               <div>
+                  <div class="producttextt1">250G</div>
+                  <div class="producttextt1 flatButton">Eco Flat Button</div>
+               </div>
+               <div>
+                  <div  class="productTextQuantity price" >&#215 1000</div>
+                  <div class="producttextt1">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="itemContainerr" >
+               <div>
+                  <div class="producttextt1">250G</div>
+                  <div class="producttextt1 flatButton" >Eco Flat Button</div>
+               </div>
+               <div>
+                  <div  class="productTextQuantity price" >&#215 1000</div>
+                  <div class="producttextt1">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="itemContainerr" >
+               <div>
+                  <div class="producttextt1">250G</div>
+                  <div class="producttextt1 flatButton">Eco Flat Button</div>
+               </div>
+               <div>
+                  <div  class="productTextQuantity price"  >&#215 1000</div>
+                  <div class="producttextt1">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="itemContainerr" >
+               <div>
+                  <div class="producttextt1">Xtras+Finance+Storage </div>
+               </div>
+               <div>
+                  <div class="producttextt1">&#x20AC; 30.00</div>
+                  <!-- <div class="producttextt1 test">&#x20AC; 30.00</div> -->
+               </div>
+            </div>
+          </div>
+
+          <!-- Total Container -->
+          <div class="totalParent">
+
+         
+            <div class="totalContainerr" >
+               <div>
+                  <div class="producttextt2">Subtotal</div>
+               </div>
+               <div>
+                  <div class="producttextt2">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="totalContainerr" >
+               <div>
+                  <div class="producttextt2">Shipping</div>
+               </div>
+               <div>
+                  <div class="producttextt2">&#x20AC; 30.00</div>
+               </div>
+            </div>
+            <div class="totalContainerr" >
+               <div>
+                  <div  class="producttextt1 total">Total</div>
+               </div>
+               <div>
+                  <div class="totalPriceText totalPrice" class="producttextt1">&#x20AC; 310.00</div>
+               </div>
+            </div>
+          </div>
+         </div>
+      </div>
+   </body>
+</html>

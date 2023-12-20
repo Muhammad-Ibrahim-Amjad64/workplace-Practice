@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="screen2.css" />
+      <title>Screen2</title>
+   </head>
+   <body>
+      <div class="wrapper">
+
+        <!--  START OF TO NAV -->
+         <div class="SequenceContainer">
+            <div class="SequenceItemContainer">
+               <div class="sequenceNumber bg-green">1</div>
+               <div>Shipping</div>
+            </div>
+            <div class="SequenceItemContainer">
+               <div class="sequenceNumber">2</div>
+               <div>Payment</div>
+            </div>
+            <div class="SequenceItemContainer">
+               <div class="sequenceNumber">3</div>
+               <div>Confirmation</div>
+            </div>
+         </div>
+
+         <!-- START OF FORM AND PRICNG CONTAINER -->
+         <div class="RootContainerr">
+            <div class="childLeftt">
+               <div class="Headingg">Where shall we send your coffee bag ?</div>
+               <form class="formm">
+                <!-- Single input field -->
+                  <div class="singleInput">
+                     <input class="inputStyless" placeholder="Country/Region" type="text" />
+                  </div>
+                  <span class="full">Fill in this text</span>
+                  <!-- double input fields  -->
+                  <div class="cardInputContainerr">
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="First name" type="text" />
+                        <span class="half">Fill in this text</span>
+                     </div>
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="Last name" type="text" />
+                        <span  class="half">Fill in this text</span>   
+                     </div>
+                  </div>
+                  <div class="singleInput">
+                     <input class="inputStyless" placeholder="Address" type="text" />
+                     <div class="full">Fill in this text</div>
+                  </div>
+                  <div class="cardInputContainerr">
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="Email" type="text" />
+                        <span class="half">Fill in this text</span>
+                     </div>
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="Phone" type="text" />
+                        <span class="half">Fill in this text</span>
+                     </div>
+                  </div>
+                  <div class="cardInputContainerr">
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="City" type="text" />
+                        <span class="half">Fill in this text</span>
+                     </div>
+                     <div class="inputWrapper">
+                        <input  class="inputStyless customSize" placeholder="Postcode" type="text" />
+                        <span class="half">Fill in this text</span>
+                     </div>
+                  </div>
+                  <div class="singleInput">
+                     <input class="inputStyless" placeholder="Landline" type="text" />
+                     <span class="full">Fill in this text</span>
+                  </div>
+                  <!-- Radio Input part from here  -->
+                  <div class="formLargeHeadingg">Shipping Method</div>
+
+                  <!-- Radio Input fields -->
+                  <div class="RadioInputsWrapper">
+                    <div   class="shippingFocus parent">
+                      <div class="shippingInputContainerr" >
+                         <input name="payment" class="radioInputStyless" id="fedex"  type="radio" />
+                         <label class="shippingText"   for="fedex">FedEx</label>
+                      </div>
+                      <img class="fedexLogo" src="./images/FedexLogo.png" alt="fedex">
+                   </div>
+                   <div class="shippingFocus lower">
+                      <div class="shippingInputContainerr">
+                         <input  name="payment" class="radioInputStyless"  value="DHL Express" id="DHLexpress" type="radio" />
+                         <label class="shippingText" for="DHLexpress">DHL Express</label>
+                      </div>
+                      <div class="imageParent">
+                        <img class="dhlLogo" src="./images/logoDHL.png" alt="dhl">    
+                    </div>  
+                   </div>                  
+                  </div>
+               </form>
+
+               <!-- Buttons Container -->
+               <div class="buttonContainerr">
+                  <button class="btnBackToShoppingg">Back to shipping</button>
+                  <button class="btnCheckoutt">Checkout</button>
+               </div>
+            </div>
+            <!-- Payment Container -->
+            <div class="childRightt">
+               <div class="Headingg">Order Summary</div>
+               <div class="productTitleContainerr">
+                 
+                  <div class=" imageParent">
+                    <img class="productImage"  src="./images/item.png" alt="productImage" />
+                  </div>
+                  <div class="productHeadingg">Premuim Eco Flat Buttom</div>
+               </div>
+               <!-- Items Container -->
+               <div class="ItemsParent">
+
+         
+               <div class="itemContainerr" >
+                  <div>
+                     <div class="producttextt1">250G</div>
+                     <div class="producttextt1 flatButton" >Eco Flat Button</div>
+                  </div>
+                  <div>
+                     <div  class="productTextQuantity price"  >&#215 1000</div>
+                     <div class="producttextt1">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+               <div class="itemContainerr" >
+                  <div>
+                     <div class="producttextt1">250G</div>
+                     <div class="producttextt1 flatButton" >Eco Flat Button</div>
+                  </div>
+                  <div>
+                     <div  class="productTextQuantity price"  >&#215 1000</div>
+                     <div class="producttextt1">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+               <div class="itemContainerr" >
+                  <div>
+                     <div class="producttextt1">250G</div>
+                     <div class="producttextt1 flatButton" >Eco Flat Button</div>
+                  </div>
+                  <div>
+                     <div  class="productTextQuantity price" >&#215 1000</div>
+                     <div class="producttextt1">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+               <div class="itemContainerr" >
+                  <div>
+                     <div class="producttextt1">Xtras+Finance+Storage</div>
+                  </div>
+                  <div>
+                     <div class="producttextt1">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+              </div>
+
+              <!-- Total Container -->
+             <div class="totalParent">
+
+               <div class="totalContainerr" >
+                  <div>
+                     <div class="producttextt2">Subtotal</div>
+                  </div>
+                  <div>
+                     <div class="producttextt2">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+               <div class="totalContainerr" >
+                  <div>
+                     <div class="producttextt2">Shipping</div>
+                  </div>
+                  <div>
+                     <div class="producttextt2">&#x20AC; 30.00</div>
+                  </div>
+               </div>
+               <div class="totalContainerr" >
+                  <div>
+                     <div class="producttextt1 total">Total</div>
+                  </div>
+                  <div>
+                     <div class="totalPriceText totalPrice" class="producttextt1">&#x20AC; 310.00</div>
+                  </div>
+               </div>
+             </div>
+             <!-- Total container ends here -->
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

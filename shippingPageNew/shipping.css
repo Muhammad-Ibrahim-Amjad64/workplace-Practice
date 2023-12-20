@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: #000;
+  --green: #64943d;
+  --brown: #4b2010;
+  --purple: #9248f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+body {
+  background-color: #ecebf0;
+  display: flex;
+  padding: 2vw 0;
+  justify-content: center;
+}
+
+.colorBlue {
+  color: var(--black);
+}
+.colorWhite {
+  color: var(--white);
+}
+.colorGreen {
+  color: var(--green);
+}
+.colorBlack {
+  color: var(--black);
+}
+.colorPurple {
+  color: var(--purple);
+}
+.colorBrown {
+  color: var(--brown);
+}
+
+.main {
+  width: 90vw;
+  /* background-color: lightcoral; */
+  display: flex;
+  gap: 1vw;
+  min-height: 100vh;
+}
+
+.topMainHeading {
+  font-size: 1.56vw;
+  padding: 1vw 0;
+  font-weight: 600;
+}
+
+.leftMain {
+  flex: 10;
+  background-color: lightcyan;
+}
+
+.leftFormContainer {
+  width: 100%;
+  min-height: 90vh;
+  background-color: white;
+  padding: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.inputFieldContainer {
+  height: 3.7vw;
+  width: 100%;
+}
+
+.inputField {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.inputField input {
+  width: 100%;
+  height: 100%;
+  padding: 0.52vw;
+  border: 2px solid #ccc;
+  border-radius: 0.4vw;
+  font-size: 1.15vw;
+  transition: border-color 0.3s ease;
+}
+.inputField label {
+  position: absolute;
+  left: 0.625vw;
+  top: 1.1vw;
+  font-size: 1.15vw;
+  color: #777;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+.inputField input:focus {
+  border-color: var(--green);
+  outline: none;
+}
+.inputField input:focus + label,
+.inputField input:not(:placeholder-shown) + label {
+  top: -0.3125vw;
+  font-size: 0.625vw;
+  color: var(--green);
+  background-color: #ffffff;
+  padding: 0 0.2vw;
+  border-radius: 0.4vw;
+  left: 0.4vw;
+}
+
+.twoFieldsContainer {
+  display: flex;
+  gap: 1vw;
+}
+
+.noteText {
+  font-size: 1.05vw;
+  width: 100%;
+}
+
+.rightMain {
+  flex: 9;
+  /* background-color: lightgreen; */
+  height: 20vw;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ADDED IBRAHIM------------------------------------------------------------- */
+
+
+
+.textMax {
+  font-size: 1.5vw;
+}
+
+.textLarge {
+  margin-bottom: 0.2vw;
+  font-size: 1.2vw;
+
+}
+.textLarge.gray {
+  color: #c2c2c2;
+}
+
+.textSmall {
+  margin-bottom: 0.2vw;
+  font-size: 0.9vw;
+
+}
+
+
+.textSmall.gray {
+  color: #c2c2c2;
+}
+
+.itemContainer {
+  display: flex;
+  border-bottom: 0.1vw solid #c2c2c2;
+  margin-bottom: 1vw;
+  padding-bottom: 1vw;
+}
+
+.itemContainer.center {
+  align-items: center;
+}
+.itemContainer.none {
+  border: none;
+}
+
+.itemContainer.custom {
+  background-color: #9248f6;
+  color: white;
+  padding: 0.7vw;
+}
+.item1 {
+  flex: 1;
+}
+.item1.alignEnd {
+  text-align: end;
+}
+.item3 {
+  flex: 3;
+}
+
+.item8 {
+  flex: 8;
+}
+
+.image {
+  height: calc(287 * 0.02vw);
+  width: calc(196 * 0.02vw);
+}
+
+.imageContainer {
+  margin-right: 1vw;
+  border-radius: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1vw solid var(--green);
+  background-color: var(--white);
+}
+
+.scrollableDiv {
+  padding: 1vw;
+  overflow-y: auto;
+  scroll-behavior: none m;
+  height: 32vw;
+}
+
+.button{
+  border: none;
+  outline: none;
+  color: var(--purple);
+  text-decoration: underline;
+  font-size: 1.2vw;
+  background-color: #ecebf0;
+
+}
